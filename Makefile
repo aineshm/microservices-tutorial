@@ -5,6 +5,7 @@ install:
 
 format:
 	#format
+	black *.py src/*.py
 
 lint:
 	#flake8 or pylint
